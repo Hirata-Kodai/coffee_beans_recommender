@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "マンデリン・リントン",
+    "origin": "インドネシア",
+    "region": "スマトラ島リントン地区",
+    "roast_level": "フレンチロースト",
+    "flavor_profile": {
+      "acidity": 3.0,
+      "bitterness": 4.0,
+      "body": 5.0,
+      "clarity": 2.0
+    },
+    "tasting_notes": ["ダークチョコレート", "ハーブ", "グレープフルーツ"],
+    "description": "濃厚なコクとシロップのようなとろみ、奥に潜むグレープフルーツのような柑橘系の酸味が特徴",
+    "price": 1800,
+    "image_url": "https://example.com/images/mandheling.jpg"
+  },
+  {
+    "id": 2,
+    "name": "グアテマラ・アンティグア SHB",
+    "origin": "グアテマラ",
+    "region": "アンティグア地区",
+    "roast_level": "シティロースト",
+    "flavor_profile": {
+      "acidity": 4.0,
+      "bitterness": 2.5,
+      "body": 3.5,
+      "clarity": 3.5
+    },
+    "tasting_notes": ["チョコレート", "ナッツ", "オレンジ"],
+    "description": "バランスの取れた味わいで、フルーティーな酸味とチョコレートのような甘みが調和",
+    "price": 1600,
+    "image_url": "https://example.com/images/guatemala.jpg"
+  },
+  {
+    "id": 3,
+    "name": "エチオピア・イルガチェフ",
+    "origin": "エチオピア",
+    "region": "イルガチェフ地区",
+    "roast_level": "ミディアムロースト",
+    "flavor_profile": {
+      "acidity": 4.5,
+      "bitterness": 1.5,
+      "body": 2.5,
+      "clarity": 4.5
+    },
+    "tasting_notes": ["ベリー", "フローラル", "レモン"],
+    "description": "華やかな香りと明るい酸味、ベリーのようなフルーティーな風味が特徴的",
+    "price": 2000,
+    "image_url": "https://example.com/images/yirgacheffe.jpg"
+  },
+  {
+    "id": 4,
+    "name": "ブラジル・サントスNo.2",
+    "origin": "ブラジル",
+    "region": "ミナスジェライス州",
+    "roast_level": "ハイロースト",
+    "flavor_profile": {
+      "acidity": 2.5,
+      "bitterness": 3.0,
+      "body": 4.0,
+      "clarity": 2.5
+    },
+    "tasting_notes": ["ナッツ", "キャラメル", "カカオ"],
+    "description": "マイルドで柔らかい口当たり、ナッツのような香ばしさとほんのりした甘み",
+    "price": 1200,
+    "image_url": "https://example.com/images/brazil.jpg"
+  },
+  {
+    "id": 5,
+    "name": "コロンビア・スプレモ",
+    "origin": "コロンビア",
+    "region": "ウィラ地区",
+    "roast_level": "シティロースト",
+    "flavor_profile": {
+      "acidity": 3.5,
+      "bitterness": 2.5,
+      "body": 3.5,
+      "clarity": 3.5
+    },
+    "tasting_notes": ["キャラメル", "レッドアップル", "シトラス"],
+    "description": "クリーンで明るい酸味、甘みとコクのバランスが良く飲みやすい",
+    "price": 1500,
+    "image_url": "https://example.com/images/colombia.jpg"
+  },
+  {
+    "id": 6,
+    "name": "ケニア AA",
+    "origin": "ケニア",
+    "region": "キリニャガ地区",
+    "roast_level": "シティロースト",
+    "flavor_profile": {
+      "acidity": 5.0,
+      "bitterness": 2.0,
+      "body": 3.0,
+      "clarity": 4.0
+    },
+    "tasting_notes": ["ブラックカラント", "グレープフルーツ", "トマト"],
+    "description": "力強い酸味とワインのような複雑な風味、フルーティーでジューシーな味わい",
+    "price": 2200,
+    "image_url": "https://example.com/images/kenya.jpg"
+  },
+  {
+    "id": 7,
+    "name": "コスタリカ・タラス",
+    "origin": "コスタリカ",
+    "region": "タラス地区",
+    "roast_level": "ミディアムロースト",
+    "flavor_profile": {
+      "acidity": 4.0,
+      "bitterness": 2.0,
+      "body": 3.0,
+      "clarity": 4.0
+    },
+    "tasting_notes": ["ハニー", "オレンジ", "アーモンド"],
+    "description": "クリーンで透明感のある味わい、蜂蜜のような甘みと柔らかな酸味",
+    "price": 1700,
+    "image_url": "https://example.com/images/costarica.jpg"
+  },
+  {
+    "id": 8,
+    "name": "ジャマイカ・ブルーマウンテン",
+    "origin": "ジャマイカ",
+    "region": "ブルーマウンテン地区",
+    "roast_level": "ミディアムロースト",
+    "flavor_profile": {
+      "acidity": 3.0,
+      "bitterness": 2.0,
+      "body": 3.0,
+      "clarity": 4.5
+    },
+    "tasting_notes": ["フローラル", "ミルクチョコレート", "シトラス"],
+    "description": "洗練された味わいと滑らかな口当たり、上品な香りと繊細な風味のバランス",
+    "price": 4500,
+    "image_url": "https://example.com/images/bluemountain.jpg"
+  },
+  {
+    "id": 9,
+    "name": "ハワイ・コナ",
+    "origin": "アメリカ",
+    "region": "ハワイ島コナ地区",
+    "roast_level": "ミディアムロースト",
+    "flavor_profile": {
+      "acidity": 3.5,
+      "bitterness": 2.0,
+      "body": 3.0,
+      "clarity": 4.0
+    },
+    "tasting_notes": ["ミルクチョコレート", "マカダミアナッツ", "トロピカルフルーツ"],
+    "description": "まろやかで優しい味わい、ナッツの甘みとトロピカルな香りが特徴",
+    "price": 4000,
+    "image_url": "https://example.com/images/kona.jpg"
+  },
+  {
+    "id": 10,
+    "name": "ベトナム・ダラット",
+    "origin": "ベトナム",
+    "region": "ダラット高原",
+    "roast_level": "フレンチロースト",
+    "flavor_profile": {
+      "acidity": 2.0,
+      "bitterness": 4.5,
+      "body": 4.5,
+      "clarity": 2.0
+    },
+    "tasting_notes": ["ダークチョコレート", "スパイス", "土っぽさ"],
+    "description": "力強い苦味と濃厚なコク、チョコレートとスパイスの香りが印象的",
+    "price": 1000,
+    "image_url": "https://example.com/images/vietnam.jpg"
+  }
+]
