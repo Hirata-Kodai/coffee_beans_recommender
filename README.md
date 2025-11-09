@@ -228,10 +228,43 @@ python -m pytest  # テストがある場合
 
 ### フロントエンドのテスト
 
+Bean Advisorフロントエンドには包括的な単体テストが実装されています。
+
+#### すべてのテストを実行
+
 ```bash
 cd frontend
 flutter test
 ```
+
+#### テストカバレッジを確認
+
+```bash
+cd frontend
+flutter test --coverage
+```
+
+#### 特定のテストのみ実行
+
+```bash
+# モデルテストのみ
+flutter test test/models/
+
+# ウィジェットテストのみ
+flutter test test/widgets/
+
+# 特定のファイル
+flutter test test/models/flavor_profile_test.dart
+```
+
+#### テスト構成
+
+- **モデルテスト** (`test/models/`): FlavorProfile, CoffeeBean, Recommendation
+- **サービステスト** (`test/services/`): ApiService, SSE パース
+- **ウィジェットテスト** (`test/widgets/`): FlavorChart, BeanCard, Chat
+- **画面テスト** (`test/screens/`): HomeScreen
+
+詳細は [TESTING.md](frontend/TESTING.md) を参照してください。
 
 ### リント
 
